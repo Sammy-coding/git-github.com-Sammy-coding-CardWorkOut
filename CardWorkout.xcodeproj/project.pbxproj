@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		047639532B0FF30D003CE7EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047639522B0FF30D003CE7EF /* AppDelegate.swift */; };
 		047639552B0FF30D003CE7EF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047639542B0FF30D003CE7EF /* SceneDelegate.swift */; };
-		047639572B0FF30D003CE7EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047639562B0FF30D003CE7EF /* ViewController.swift */; };
 		0476395A2B0FF30D003CE7EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047639582B0FF30D003CE7EF /* Main.storyboard */; };
 		0476395C2B0FF30F003CE7EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0476395B2B0FF30F003CE7EF /* Assets.xcassets */; };
 		0476395F2B0FF30F003CE7EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0476395D2B0FF30F003CE7EF /* LaunchScreen.storyboard */; };
+		047639672B12A5BC003CE7EF /* CardSelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047639662B12A5BC003CE7EF /* CardSelectionVC.swift */; };
+		0496C6EF2B18C76800DC5826 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0496C6EE2B18C76700DC5826 /* Deck.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0476394F2B0FF30D003CE7EF /* CardWorkout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardWorkout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		047639522B0FF30D003CE7EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		047639542B0FF30D003CE7EF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		047639562B0FF30D003CE7EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		047639592B0FF30D003CE7EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0476395B2B0FF30F003CE7EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0476395E2B0FF30F003CE7EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		047639602B0FF30F003CE7EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		047639662B12A5BC003CE7EF /* CardSelectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSelectionVC.swift; sourceTree = "<group>"; };
+		0496C6EE2B18C76700DC5826 /* Deck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				047639522B0FF30D003CE7EF /* AppDelegate.swift */,
 				047639542B0FF30D003CE7EF /* SceneDelegate.swift */,
-				047639562B0FF30D003CE7EF /* ViewController.swift */,
+				047639662B12A5BC003CE7EF /* CardSelectionVC.swift */,
+				0496C6EE2B18C76700DC5826 /* Deck.swift */,
 				047639582B0FF30D003CE7EF /* Main.storyboard */,
 				0476395B2B0FF30F003CE7EF /* Assets.xcassets */,
 				0476395D2B0FF30F003CE7EF /* LaunchScreen.storyboard */,
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				047639572B0FF30D003CE7EF /* ViewController.swift in Sources */,
+				0496C6EF2B18C76800DC5826 /* Deck.swift in Sources */,
 				047639532B0FF30D003CE7EF /* AppDelegate.swift in Sources */,
 				047639552B0FF30D003CE7EF /* SceneDelegate.swift in Sources */,
+				047639672B12A5BC003CE7EF /* CardSelectionVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
